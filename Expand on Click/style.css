@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 30px;
+    height: 38vh;
+    width: 20vw;
+    background-color: white ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+}
+.image{
+    position: absolute;
+    height: 14vh;
+    width: 9.7vw;
+    margin-left: 25%;
+    margin-top: 25%;
+    background-color: red;
+    background-image: url("desert.jpg");
+    background-size: contain;
+    transition: 1.5s;
+}
+
+#image2{
+    background-image: url("mountains.jpg");
+}
+#image3{
+    background-image: url("ocean.jpg");
+}
+.text{
+    margin-top: 22%;
+    font-family: Verdana;
+    font-weight: 900;
+    font-size: 20px;
+    transition: 1.5s ease;
+
+}
+#lbl1{
+    color: white;
+    margin-left: 38%;
+}
+#lbl1a{
+    color: white;
+    transition: 2s ease;
+
+}
+#lbl2{
+    margin-left: 35%;
+    color: white;
+    
+}
+#lbl1b{
+    color: white;
+    transition: 2s ease;
+
+}
+#lbl3{
+    margin-left: 39%;
+    color: white;
+}
+#lbl1c{
+    color: white;
+    transition: 1.5s ease;
+
+}
+button{
+    margin-top: 5%;
+    margin-left: 35%;
+    border: none;
+    padding: 9px;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn1{
+    background-color: #E55604;
+}
+#btn2{
+    background-color: #1c915e;
+}
+#btn3{
+    background-color: #679cbb;
+}
+
+#box1:focus-within #image1{
+    margin-top: -16%;
+    transition: 1.5s ease;
+}
+#box1:focus-within #lbl1{
+    transition: 1.5s ease;
+    color: #E55604;
+}
+#box1:focus-within #lbl1a{
+    transition: 2s ease;
+    color: black;
+}
+
+
+#box2:focus-within #image2{
+    margin-top: -16%;
+    transition: 1.5s ease;
+}
+#box2:focus-within #lbl2{
+    transition: 1.5s ease;
+    color: #1c915e;
+}
+#box2:focus-within #lbl1b{
+    transition: 2s ease;
+    color: black;
+}
+
+#box3:focus-within #image3{
+    margin-top: -16%;
+    transition: 1.5s ease;
+}
+#box3:focus-within #lbl3{
+    transition: 1.5s ease;
+    color: #22668D;
+}
+#box3:focus-within #lbl1c{
+    transition: 2s ease;
+    color: black;
+}
+

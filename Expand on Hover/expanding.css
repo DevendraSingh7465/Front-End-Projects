@@ -1,0 +1,109 @@
+body{
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.first{
+    display: inline-block;
+    width: 100px;
+    height: 325px;
+    transition: 1.5s;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-image: url("car1.jpg");
+    background-size: cover;
+}
+.first:hover{
+    height: 325px;
+    width: 489px;
+    background-size: cover;
+    transition: 2s;
+}
+.second{
+    display: inline-block;
+    transition: 1.5s;
+    background-size: cover;
+    margin-left: 10px;
+    width: 100px;
+    height: 325px;
+    border-radius: 50px;
+    background-image: url("car2.jpg");
+    border: 2px solid black;
+}
+.second:hover{
+    height: 325px;
+    width: 489px;
+    background-size: cover;
+    transition: 2s;
+}
+.three{
+    display: inline-block;
+    transition: 1.5s;
+    background-size: cover;
+    margin-left: 10px;
+    width: 100px;
+    height: 325px;
+    border-radius: 50px;
+    background-image: url("car3.jpg");
+    border: 2px solid black;
+}
+.three:hover{
+    height: 325px;
+    width: 489px;
+    background-size: cover;
+    transition: 2s;
+}
+.four{
+    display: inline-block;
+    transition: 1.5s;
+    background-size: cover;
+    margin-left: 10px;
+    width: 100px;
+    height: 325px;
+    border-radius: 50px;
+    background-image: url("car4.jpg");
+    border: 2px solid black;
+}
+.four:hover{
+    height: 325px;
+    width: 489px;
+    background-size: cover;
+    transition: 2s;
+}
+.five{
+    display: inline-block;
+    transition: 1.5s;
+    background-size: cover;
+    margin-left: 10px;
+    width: 100px;
+    height: 325px;
+    border-radius: 50px;
+    background-image: url("car5.jpg");
+    border: 2px solid black;
+}
+.five:hover{
+    height: 325px;
+    width: 489px;
+    background-size: cover;
+    transition: 2s;
+}
+.six{
+    display: inline-block;
+    transition: 1.5s;
+    background-size: cover;
+    margin-left: 10px;
+    width: 100px;
+    height: 325px;
+    border-radius: 50px;
+    background-image: url("car6.jpg");
+    border: 2px solid black;
+}
+.six:hover{
+    height: 325px;
+    width: 489px;
+    background-size: cover;
+    transition: 2s;
+}
