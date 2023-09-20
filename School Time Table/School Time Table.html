@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .table{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #lunch{
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>TIME TABLE</u></h1>
+    <table border="1" class="table">
+        <tr id="firstrow">
+            <th>Day/Period</th>
+            <th>I<br>9:30-10:20</th>
+            <th>II<br>10:20-11:10</th>
+            <th>III<br>11:10-12:00</th>
+            <th>LUNCH<br>12:00-12:40</th>
+            <th>IV<br>12:40-1:30</th>
+            <th>V<br>1:30-2:20</th>
+            <th>VI<br>2:20-3:10</th>
+            <th>VII<br>3:10-4:00</th>
+        </tr>
+        <tr>
+            <th>MONDAY</th>
+            <TD>ENGLISH</TD>
+            <TD>MATHS</TD>
+            <TD>CHEMISTRY</TD>
+            <Th rowspan="6" id="lunch">LUNCH</Th>
+            <TD colspan="3">LAB</TD>
+            <TD>PHYSICS</TD>
+        </tr>
+        <tr>
+            <th>TUESDAY</th>
+            <TD colspan="3">LAB</TD>
+            <TD>ENGLISH</TD>
+            <TD>CHEMISTRY</TD>
+            <TD>MATHS</TD>
+            <TD>SPORTS</TD>
+        </tr>
+        <tr>
+            <th>WEDNESDAY</th>
+            <TD>MATHS</TD>
+            <TD>PHYSICS</TD>
+            <TD>ENGLISH</TD>
+            <TD>CHEMISTRY</TD>
+            <TD colspan="3">LIBRARY</TD>
+        </tr>
+        <tr>
+            <th>THURSDAY</th>
+            <TD>PHYSICS</TD>
+            <TD>ENGLISH</TD>
+            <TD>CHEMISTRY</TD>
+            <TD colspan="3">LAB</TD>
+            <TD>MATHS</TD>
+        </tr>
+        <tr>
+            <th>FRIDAY</th>
+            <TD colspan="3">LAB</TD>
+            <TD>MATHS</TD>
+            <TD>CHEMISTRY</TD>
+            <TD>ENGLISH</TD>
+            <TD>PHYSICS</TD>
+        </tr>
+        <tr>
+            <th>SATURDAY</th>
+            <TD>ENGLISH</TD>
+            <TD>CHEMISTRY</TD>
+            <TD>MATHS</TD>
+            <TD colspan="3">SEMINAR</TD>
+            <TD>SPORTS</TD>
+        </tr>
+    </table>
+</body>
+</html>
